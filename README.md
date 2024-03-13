@@ -1,68 +1,35 @@
 
-# jsTab
+# JavaScript Tabs
 
-## Description
+This repository contains a simple example of creating tabs using HTML, CSS, and JavaScript. The tabs allow users to switch between different content sections dynamically.
 
-This project is a simple tab component implemented in JavaScript. It allows users to switch between different tabs to view content.
+## Table of Contents
 
-## Features
-
-- Tab switching functionality.
-- Customizable tab styles.
-- Easy to integrate into existing projects.
-
-## Installation
-
-To use the jsTab component in your project, follow these steps:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/prasiddha007/jsTab.git
-   ```
-2. Include the necessary files in your project:
-
-   - `jsTab.js`
-   - `styles.css`
-
-3. Add the HTML structure for the tabs in your project:
-
-   ```html
-   <div class="tabs">
-     <div class="tab">
-       <button class="tablinks" onclick="openTab(event, 'Tab1')">Tab 1</button>
-     </div>
-     <div class="tab">
-       <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab 2</button>
-     </div>
-   </div>
-
-   <div id="Tab1" class="tabcontent">
-     <h3>Tab 1 Content</h3>
-     <p>This is the content of tab 1.</p>
-   </div>
-
-   <div id="Tab2" class="tabcontent">
-     <h3>Tab 2 Content</h3>
-     <p>This is the content of tab 2.</p>
-   </div>
-   ```
-
-4. Initialize the jsTab component in your JavaScript file:
-
-   ```javascript
-   const tabComponent = new TabComponent('.tabs');
-   tabComponent.init();
-   ```
+- [Demo](#demo)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Usage
 
-To use the jsTab component, follow these steps:
+To use the tabs in your project, follow these steps:
 
-1. Include the necessary files in your project.
-2. Add the HTML structure for the tabs.
-3. Initialize the jsTab component in your JavaScript file.
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/prasiddha007/jsTab.git
+   ```
+
+2. Open the `index.html` file in your browser to see the tabs in action.
+
+3. To customize the tabs, you can modify the HTML, CSS, and JavaScript files as needed.
+
+## Contributing
+
+Contributions to this repository are welcome. If you have any improvements or suggestions, feel free to open an issue or submit a pull request.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
+---
